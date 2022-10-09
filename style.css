@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/wp/wp3441226.png");
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  background-color: white;
+  height: 400px;
+  width: 600px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+
+.block-channel {
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+button {
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+#light {
+  margin-top: 5px;
+  padding: 5px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+#tvLight {
+  width: 5px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.tvBottom {
+  width: 600px;
+  background-color: black;
+  border: 2px solid black;
+}
